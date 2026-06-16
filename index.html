@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Page title updated to reflect the Wear Apex Labs brand -->
+    <title>Wear Apex Labs – Wrestling Apparel</title>
+    <!-- Google Fonts for clean, athletic typography -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Oswald:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Site header: simple logo and store link. Feel free to replace the text with your own logo image. -->
+    <header>
+      <!-- Replace the placeholder logo text with your brand name -->
+      <div class="logo">Wear Apex Labs</div>
+      <nav>
+        <a href="#shop" class="store-link">Shop</a>
+      </nav>
+    </header>
+
+    <!-- Hero section: a full‑screen canvas with 3D animation and overlayed copy. -->
+    <section id="hero">
+      <canvas id="three-canvas"></canvas>
+      <div class="overlay">
+        <!-- Hero heading updated to highlight your brand name while retaining the original tagline -->
+        <h1>
+          <span class="accent">Wear Apex Labs</span><br />
+          Wrestling meets modern style
+        </h1>
+        <p class="subtext">
+          Bold colors, dynamic prints and premium fabrics – built for fans and
+          athletes alike.
+        </p>
+        <div class="scroll-indicator">Scroll</div>
+      </div>
+    </section>
+
+    <!-- Placeholder shop section. Replace the sample products with embedded Printify items when ready. -->
+    <section id="shop">
+      <h2 class="section-title">Featured Products</h2>
+      <div class="product-grid">
+        <div class="product-card">
+          <div class="product-image"></div>
+          <h3 class="product-name">Full Cosplay Leggings Set</h3>
+        </div>
+        <div class="product-card">
+          <div class="product-image"></div>
+          <h3 class="product-name">Patriotic Star Tee</h3>
+        </div>
+        <div class="product-card">
+          <div class="product-image"></div>
+          <h3 class="product-name">Gothic Power Hoodie</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- Three.js and animation libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r148/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
